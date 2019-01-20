@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+    <input file="2048_tiles.raw" type="raw" tile-width="8" tile-height="8" width="256" height="256" />
+    <output file="2048_tiles.pic.inc">
+        <tiles var-name="Tiles2048"/>
+        <maps pointers-size="16">	
+
+	    <map var-name="empty_sprite_small" left="0" top="0" width="1" height="1"/>   
+	    <map var-name="field_empty" left="0" top="1" width="5" height="5"/>   
+	    <map var-name="field_2" left="5" top="1" width="5" height="5"/>   
+	    <map var-name="field_4" left="10" top="1" width="5" height="5"/>   
+	    <map var-name="field_8" left="15" top="1" width="5" height="5"/>   
+
+	    <map var-name="field_16" left="0" top="6" width="5" height="5"/>   
+	    <map var-name="field_32" left="5" top="6" width="5" height="5"/>   
+	    <map var-name="field_64" left="10" top="6" width="5" height="5"/>   
+	    <map var-name="field_128" left="15" top="6" width="5" height="5"/>   
+
+	    <map var-name="field_256" left="0" top="11" width="5" height="5"/>   
+	    <map var-name="field_512" left="5" top="11" width="5" height="5"/>   
+	    <map var-name="field_1024" left="10" top="11" width="5" height="5"/>   
+	    <map var-name="field_2048" left="15" top="11" width="5" height="5"/>   
+
+	    <map var-name="titel_2048" left="0" top="16" width="23" height="7"/>   
+	    
+	</maps>	
+    </output>
+</gfx-xform>
